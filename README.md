@@ -1,6 +1,7 @@
 # Simple-airline-priority-system
 
 I design a very simplistic software that selects the next passenger on an airline waiting list when a seat become available.
+
 1. Based on the given rules, I inserted an indivudal nearer to the top (head) location based on a derived score from connecting flight status, club priority and fare.
 	-->Customers with connecting flights have first priority
 	-->Platinum customers have second priority
