@@ -11,7 +11,7 @@ I design a very simplistic software that selects the next passenger on an airlin
 	-->Airline frequent flyers have sixth priority
 	-->Everyone else has last priority
 
-2. I categorise the connecting flight status and club priority status as the following scores
+2. I categorise the connecting flight status and club priority status with the following scores
 	-->1-Connect:Platinum; 2-Connect:Gold; 3-Connect:Silver; 4-Connect:Airline club members; 5-Connect:Airline frequent flyers; 6-Connect:No classifcation 
     -->7-NoConnect:Platinum; 8-NoConnect:Gold; 9-NoConnect:Silver; 10-NoConnect:Airline club members; 11-NoConnect:Airline frequent flyers; 12-NoConnect:No classifcation 
 3. The formula to derive the priority score is as follows: Point in category 2 + 1/(fare price). I use a reciprocal of fare price for second part of the formula. Hence, a larger fare price paid would result in a smaller score, which will propel the individual closer to the top of the queue.
